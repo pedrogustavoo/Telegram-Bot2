@@ -1,0 +1,62 @@
+{
+  "GW006": {
+    "local": "MT",
+    "ip": "10.200.0.6",
+    "protocolo": "http",
+    "login": "simples",
+    "fabricante": "browan",
+    "ca": null,
+    "eui": "0016C001F10E6168"
+  },
+  "GW008": {
+    "local": "Mariaeugenia",
+    "ip": "10.200.0.8",
+    "protocolo": "https",
+    "login": "nonce",
+    "fabricante": "browan",
+    "ca": "certificados/GW008/mariaeugenia.crt",
+    "tls_hostname": "gw008.browaniot.com",
+    "eui": "0016C001F10DCBA8",
+    "tls_fingerprint_sha256": "BD2742B3764EB79E7B58E1657D8FF1F51BCBC4696FA56670E77F24178CF7314C"
+  },
+  "GW002": {
+    "local": "Cadiz",
+    "ip": "10.200.0.2",
+    "protocolo": "https",
+    "login": "nonce",
+    "fabricante": "browan",
+    "ca": "certificados/GW008/Teste.crt",
+    "tls_hostname": "gw008.browaniot.com",
+    "eui": "0016C001F10E3140",
+    "tls_fingerprint_sha256": "AB106ED0D46CC0C873C7B68ECACB56E7C815E400B7FC5EE3B92A81A538E3AE44"
+  },
+  "GW005": {
+    "local": "Gran Studios",
+    "ip": "10.200.0.5",
+    "protocolo": "http",
+    "login": "simples",
+    "fabricante": "browan",
+    "ca": null,
+    "eui": "0016C001F10DD3B6"
+  },
+  "GW004": {
+    "local": "Gran Residencial",
+    "ip": "10.200.0.4",
+    "fabricante": "milesight",
+    "protocolo": "https",
+    "modelo": "UG65",
+    "auth": "bearer_api",
+    "api_port": 8080,
+    "eui": "24E124FFFEFD4242",
+    "certificado_servidor": "certificados/GW008/GW004_servidor.pem"
+},
+"GW003": {
+    "local": "Teste",
+    "ip": "10.200.0.3",
+    "protocolo": "http",
+    "login": "simples",
+    "fabricante": "browan",
+    "ca": null,
+    "eui": "0016C001F10E4712"
+}
+}
